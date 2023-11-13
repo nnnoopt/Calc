@@ -27,9 +27,9 @@ public class Main {
         }
     }
 
-    private static final String regexGlobalPattern = "\\b([0-9]|10)([+-/*])([0-9]|10)\\b";
+    private static final String regexGlobalPattern = "\\b([1-9]|10)([+-/*])([1-9]|10)\\b";
     private static final Pattern numbersPattern = Pattern.compile("(\\d+)(\\D+)(\\d+)");
-    private static final String regexNumber = "[0-9]|10";
+    private static final String regexNumber = "[1-9]|10";
     private static final String regexOperator = "[+-/*]";
     private int first;
     private int second;
